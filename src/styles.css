@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-align: center;
+  min-width: 400px;
+}
+body{
+  background-color: var(--light-cyan);
+}
+
+:root{
+  --light-cyan: #e5e4e2;
+}
+#emoji{
+  font-size: 44px;
+  color:rgb(86, 137, 233);
+
+}
+#pedia{
+  font-size: 25px;
+  color: darkgray;
+  text-align: center;
+}
+
+#lEmoji{
+  font-size: 2.4rem;
+  padding: 0.2rem;
+  margin: auto;
+  
+}
+#lEmoji:hover{
+  background-color: cyan;
+}
