@@ -65,7 +65,7 @@ export default function App() {
     if (inputEmoji in edict) {
       setMeaning(edict[inputEmoji]);
     } else {
-      setMeaning("failure to recognise this emoji");
+      setMeaning("Can't find this emoji in our Databse");
     }
   }
 
